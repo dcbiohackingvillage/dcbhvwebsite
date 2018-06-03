@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: devAid - Responsive Website Template for developers
  * Version: 1.0
  * Author: Xiaoying Riley at 3rd Wave Media
@@ -238,7 +238,7 @@ pre code {
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@keyframes border-bar { 
+@keyframes border-bar {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
@@ -647,15 +647,15 @@ pre code {
     font-size: 1.25em;
   }
   #promo { padding-top: 6em !important; }
-  
+
 
   h1.logo.pull-left { padding-top:0.1em;}
-  
+
   .anchor{
     height:-1.4em;
     margin-top: 1.4em;
   }
-  
+
   #promo  div,
   #about div,
   #promo div,
@@ -664,9 +664,9 @@ pre code {
   #Rules div,
   #submission div,
   #contact div { width:100% !important; }
-  
+
   body{ font-size: 150% !important; }
-  
+
   .container img.long-logo { width: 80% !important; }
 }
 @media screen and (min-width: 47.9375em){
@@ -691,12 +691,12 @@ section#submission,
 section#docs,
 section#about,
 section#contact
- { 
+ {
     padding-bottom: 0.4em !important;
     padding-top: 3.8em !important;
  }
- 
-section#Rules { 
+
+section#Rules {
     padding-top: 2.3em !important;
     padding-bottom: 2.3em !important;
 
@@ -704,7 +704,7 @@ section#Rules {
 
 h1.logo.pull-left{ width:50%;}
 
-.container img.long-logo { 
+.container img.long-logo {
     display:block;
     margin-left: auto;
     margin-right:auto;
@@ -718,12 +718,12 @@ span.DEFCON {
     font-weight: 900 !important;
 }
 
-section#about.about.section { padding-top:6em; } 
+section#about.about.section { padding-top:6em; }
 
 body { overflow-x:hidden !important; }
 
 #Rules div div div h2,
-#Rules div div div ul h3 { 
+#Rules div div div ul h3 {
     text-align: left;
     color: #b220a7 !important;
     font-size: 130%;
@@ -871,6 +871,19 @@ ul.purple_bullets li {
     -moz-border-radius: 2em;
     border-radius: 2em;
 }
+.button1 {
+    background-color: white !important; /* Green */
+    border: none;
+    color: black !important;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 120%;
+    font-weight: bold;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+}
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 51%}
     50%{background-position:100% 50%}
@@ -881,7 +894,7 @@ ul.purple_bullets li {
     50%{background-position:100% 50%}
     100%{background-position:0% 51%}
 }
-@keyframes AnimationName { 
+@keyframes AnimationName {
     0%{background-position:0% 51%}
     50%{background-position:100% 50%}
     100%{background-position:0% 51%}
@@ -895,6 +908,16 @@ ul.purple_bullets li {
     -moz-animation: AnimationName 30s ease infinite;
     animation: AnimationName 30s ease infinite;
 }
+.button1:hover {
+    background: #fff;
+    background: linear-gradient(270deg, #fff, #63C602, #fff);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
 
 li a, .dropbtn {
     display: inline-block;
@@ -928,7 +951,7 @@ li.dropdown {
 .biopointer::-webkit-details-marker {
     display:none;
  }
- 
+
 details details[open] .biopointer::before {
     content: "- BIO";
 }
